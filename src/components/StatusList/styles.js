@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     },
     box: {
         width: '100%',
-        height: 80,
+        height: 70,
         flexDirection: 'row',
     },
     boxLeft: {
@@ -49,6 +49,31 @@ const styles = StyleSheet.create({
     },
     boldText: {
         fontWeight: 'bold',
+    },
+    divider: {
+        backgroundColor: '#eeeeee',
+        paddingTop: 8,
+        paddingBottom: 8,
+        paddingLeft: 16,
+    },
+    greyText: {
+        color: '#777',
+    },
+    statusPic: {
+        flex: 1,
+        aspectRatio: 1,
+        borderRadius: 36,
+        margin : 3,
+        borderWidth: 3,
+        borderColor: 'green',
+    },
+    seenStatusPic: {
+        flex: 1,
+        aspectRatio: 1,
+        borderRadius: 36,
+        margin : 3,
+        borderWidth: 3,
+        borderColor: '#bbbcc1',
     },
 })
 
